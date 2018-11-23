@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CONTACT-MANAGER </title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+</head>
+<body>
+    <h1>CONTACT MANAGER</h1>
+    <div class="container">              
+
+        <label for="searchInput"> </label>
+        <br>
+        <input type="text" placeholder= "Search...">
+        <button id =searchBtn>GO </button>
+        <br>
+        <div class="newUserForm">  
+            <input id="firstname"type="text" placeholder="Firstname">
+            <input id="lastname"type="text" placeholder="Lastname">
+            <input id="phone"type="text" placeholder="+41776665544">
+             <input id="email"type="text" placeholder="noreply@vue.com">
+        </div>
+        <button id="saveBtn">Save</button>
+        <br>
+        <button id="clearBtn">Clear</button>
+        
+        <div id="output">
+
+
+            <table>
+                    <caption>CONTACTS</caption>
+                <thead>
+                   
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table> 
+        </div>
+    </div>
+    
+   
+<script src="js/storage.js"></script>
+<script src="js/model.js"></script>
+<script src="js/controller.js"></script>
+</body>
+</html>

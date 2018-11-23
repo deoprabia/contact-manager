@@ -1,0 +1,99 @@
+button {
+    background-color:#ff7f82;
+    border: none;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+.deleteContactBtn {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    background:rgb(230, 131, 10);
+    float: right;
+    color: rgb(26, 23, 23);
+    font-weight: bolder;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+h1 {
+    color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+}
+
+section:first-child {
+    line-height: 4;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    color: brown;
+}
+
+input[type=image] {
+    width: 25px;
+    position: relative;
+    top: 7px;
+}
+
+
+table th {color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+
+}
+
+    table td {
+
+        font-size: 18px;
+        height: 30px;
+        transition: all 0.4s;
+        padding: 5px 0px;
+        cursor: pointer;
+        width: 80%;
+        background: #f1f1f1;
+        margin-bottom: 2px;
+    }
+
+    td:hover {
+        background: aliceblue;
+    }
+
+    td:hover sup {
+        display: inline;
+
+    }
+
+
+    .deleteContactBtn:hover {
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .finished {
+        display: none;
+    }
+
+    section {
+        margin: 25px;
+    }
